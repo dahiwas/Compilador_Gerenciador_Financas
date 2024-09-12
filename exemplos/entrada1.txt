@@ -1,0 +1,34 @@
+algoritmo
+
+[Renda variavel utilize: 'AAPL' | 'MSFT' | 'GOOGL' | 'JPM' | 'AMAZN' | 'TSLA' | 'NVDA' | 'BTC-USD'; ]
+
+[Fixa: 'TESOURO' | 'DEPOSITO';]
+
+[periodicidade: 'DIARIO' | 'MENSAL' | 'ANUAL';]
+
+Clientes(
+    Pessoa{
+        Nome: "Fernando",
+        ValorInvestido: 10000,
+        TempoInvestido: 36,
+        LucroAlmejado: 15
+    }
+    Empresa{
+        Nome: "PoliTech",
+        ValorInvestido: 100000,
+        TempoInvestido: 12,
+        LucroAlmejado: 25
+    }
+)
+
+Mostrar()
+
+Passado("Fernando", BTC-USD, MENSAL)
+
+Previsao(BTC-USD, {7, 30, 60})
+
+Previsao("Fernando", TESOURO)
+
+Alerta(JPM)
+
+fimAlgoritmo
