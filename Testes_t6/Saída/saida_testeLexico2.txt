@@ -1,0 +1,2 @@
+Linha 2: ] - simbolo nao identificado, erro lexico
+Fim da compilacao

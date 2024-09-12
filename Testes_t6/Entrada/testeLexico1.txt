@@ -1,0 +1,23 @@
+algoritmo
+
+Clientes(
+    Pessoa{
+        Nome: Alfarroba",
+        ValorInvestido: 10000,
+        TempoInvestido: 13,
+        LucroAlmejado: 15
+    }
+
+    Pessoa{
+        Nome: "Petroca",
+        ValorInvestido: 10000,
+        TempoInvestido: 10  ,
+        LucroAlmejado: 15
+    }
+)
+
+Passado("Petroca", DEPOSITO, ANUAL)
+
+Previsao("Alfarroba", DEPOSITO, ANUAL)
+
+fimAlgoritmo
