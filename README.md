@@ -4,3 +4,39 @@
 # Visualização em vídeo:
 
 https://www.youtube.com/watch?v=F_JpcYZdG4g
+
+# Características da entrada.txt:
+
+```
+algoritmo
+
+[TIPO: pessoa, empresa]
+
+[VARIAVEL: 'AAPL' | 'MSFT' | 'GOOGL' | 'JPM' | 'AMAZN' | 'TSLA' | 'NVDA' | 'BTC-USD'; ]
+
+[FIXA: 'TESOURO' | 'DEPOSITO';]
+
+[periodicidade: 'DIARIO' | 'MENSAL' | 'ANUAL';]
+
+Clientes(
+    TIPO{
+        Nome: "NOME",
+        ValorInvestido: NUMERO,
+        TempoInvestido: NUMERO,
+        LucroAlmejado: NUMERO
+    }
+)
+
+[COMANDOS: Mostrar() | Passado("NOME"), VARIAVEL, PERIODO | Previsao(VARIAVEL, [NUMERO]) | Previsao("NOME", FIXA) | Alerta(VARIAVEL)]
+
+COMANDOS*
+
+fimAlgoritmo
+
+```
+
+# Execução após compilação:
+
+```
+java -jar ARQUVO.jar local/do/arquivo/entrada.txt local/do/arquivo/saida.py
+```
